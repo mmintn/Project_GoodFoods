@@ -89,8 +89,6 @@ public class LoginGoodfood extends AppCompatActivity {
             });
             dialog.show();
         } else {
-            Button LoginButon= findViewById(R.id.buttonConfirm);
-
             Loginn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -99,14 +97,6 @@ public class LoginGoodfood extends AppCompatActivity {
 
                 }
             });
-            Loginn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(LoginGoodfood.this, MenuGoodfood.class);
-                    startActivity(intent);
-                }
-            });
-
         }
     }
-    }
+}
